@@ -2,7 +2,8 @@
 # Google翻訳にツイートを投げる
 
 Module.new do
-  lang='ja' #=> ja=Japanese | en=English etc...
+  lang='ja' 
+  #=> ja=Japanese | en=English | zh-CH=汉语 etc...
   Plugin.create(:google_translate).add_event_filter(:command){ |menu|
     menu[:google_translate] = {
       :slug => :google_translate,
