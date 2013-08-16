@@ -1,10 +1,9 @@
 mikutterのプラグインスクリプトです。
 ツイートを翻訳するようにGoogle翻訳に投げるよ！
-lang=...
-の...を
+設定画面の入力部分に
 ○ja=Japanese
 ○en=English
-などに編集してお使いください
+など入力してお使いください
 
 author:cosmo(コスモ)
 
